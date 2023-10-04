@@ -1,0 +1,7 @@
+{
+  "name": "directivasIonic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
