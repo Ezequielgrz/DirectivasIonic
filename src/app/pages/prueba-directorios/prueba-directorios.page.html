@@ -1,0 +1,16 @@
+
+<ion-content [fullscreen]="true">
+  <div *ngIf="condicion">
+    <p>Este mensaje se mostrará si condicion es verdadero.</p>
+  </div>
+
+  <ul>
+    <li *ngFor="let item of items">{{ item }}</li>
+  </ul>
+
+  <div [ngSwitch]="color">
+    <p *ngSwitchCase="'rojo'">Color rojo</p>
+    <p *ngSwitchCase="'azul'">Color azul</p>
+    <p *ngSwitchDefault>Predeterminado</p>
+  </div>
+</ion-content>
